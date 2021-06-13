@@ -121,6 +121,6 @@ input:focus {
 .highlight:hover {
   border-radius: 20px;
   background-color: rgb(255, 255, 255);
-  transform: scale(1.2);
+  transform: scale(1.1);
   box-shadow: 2px 2px 32px rgb(177, 177, 177);
 }
