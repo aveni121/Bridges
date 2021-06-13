@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bridges</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="connect.png" />
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Data Tables -->
+    <link href="css/all.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div
+      class="container shadow"
+      style="background-color: white; min-height: 100vh"
+    >
+      <div class="container clr-bluegreen">
+        <div class="row pt-4 mb-4">
+          <div class="col-12 clr-light-bluegreen">
+            <a class="backlink" href="index.html">
+              <h1 class="display-6">
+                <i class="fas fa-chevron-left"></i> Back
+              </h1>
+            </a>
+          </div>
+        </div>
+        <!-- Student start -->
+        <div class="row mb-4">
+          <div class="col-12 clr-green">
+            <div class="text-center display-1" id="findStudent">
+              Find a Student <i class="fas fa-user-graduate"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row flex-center mb-4">
+          <div class="col-1 clr-dark-peach">
+            <h2>Search:</h2>
+          </div>
+          <div class="col-8">
+            <input
+              type="text"
+              id="search"
+              class="rounded-pill p-1"
+              style="border: solid 1px lightgray; width: 100%"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- Student Insert -->
+      <div id="studentList" class="container clr-bluegreen"></div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/organization.js"></script>
+  </body>
+</html>

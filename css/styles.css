@@ -1,0 +1,126 @@
+:root {
+  --bluegreen: #55cbcd;
+  --lightbluegreen: #a2e1db;
+  --grey: #eceae4;
+  --peach: #ffdbcc;
+  --darkpeach: #d4b6da;
+}
+
+body {
+  background-image: url("../bodybg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-light-bluegreen {
+  background-color: var(--lightbluegreen);
+}
+
+.bg-bluegreen {
+  background-color: var(--bluegreen);
+}
+
+.bg-dark-peach {
+  background-color: var(--darkpeach);
+}
+
+.clr-bluegreen {
+  color: var(--bluegreen);
+}
+
+.clr-light-bluegreen {
+  color: var(--lightbluegreen);
+}
+
+.clr-peach {
+  color: var(--peach);
+}
+
+.clr-dark-peach {
+  color: var(--darkpeach);
+}
+
+.clr-green {
+  color: rgb(0, 196, 153);
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 3px rgb(85, 85, 85);
+}
+
+.btn-pill {
+  background-color: var(--lightbluegreen);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 40px;
+  box-shadow: 0px 8px 32px rgb(199, 199, 199);
+  transition: 1s;
+}
+
+.btn-pill:hover {
+  transform: translate(0px, 7px);
+  background-color: var(--bluegreen);
+  box-shadow: 0px 1px 32px rgb(199, 199, 199);
+}
+
+.fa-connectdevelop {
+  animation: spin infinite ease-in-out 4s;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+.backlink {
+  transition: 0.5s;
+}
+
+.backlink:hover {
+  color: var(--bluegreen);
+}
+
+.student-pic {
+  width: 75px;
+  height: 75px;
+}
+
+.border-btm {
+  border-bottom: solid 2px rgba(91, 247, 215, 0.1);
+}
+input:focus {
+  outline: none;
+}
+
+.img-ctrl {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.highlight {
+  transition: 1s;
+}
+
+.highlight:hover {
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  transform: scale(1.2);
+  box-shadow: 2px 2px 32px rgb(177, 177, 177);
+}
